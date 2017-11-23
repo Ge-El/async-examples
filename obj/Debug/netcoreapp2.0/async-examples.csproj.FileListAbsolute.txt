@@ -1,0 +1,10 @@
+C:\repos\lof\async-examples\bin\Debug\netcoreapp2.0\async-examples.deps.json
+C:\repos\lof\async-examples\bin\Debug\netcoreapp2.0\async-examples.runtimeconfig.json
+C:\repos\lof\async-examples\bin\Debug\netcoreapp2.0\async-examples.runtimeconfig.dev.json
+C:\repos\lof\async-examples\bin\Debug\netcoreapp2.0\async-examples.dll
+C:\repos\lof\async-examples\bin\Debug\netcoreapp2.0\async-examples.pdb
+C:\repos\lof\async-examples\obj\Debug\netcoreapp2.0\async-examples.csproj.CoreCompileInputs.cache
+C:\repos\lof\async-examples\obj\Debug\netcoreapp2.0\async-examples.AssemblyInfoInputs.cache
+C:\repos\lof\async-examples\obj\Debug\netcoreapp2.0\async-examples.AssemblyInfo.cs
+C:\repos\lof\async-examples\obj\Debug\netcoreapp2.0\async-examples.dll
+C:\repos\lof\async-examples\obj\Debug\netcoreapp2.0\async-examples.pdb
