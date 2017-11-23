@@ -8,3 +8,4 @@ C:\repos\lof\async-examples\obj\Debug\netcoreapp2.0\async-examples.AssemblyInfoI
 C:\repos\lof\async-examples\obj\Debug\netcoreapp2.0\async-examples.AssemblyInfo.cs
 C:\repos\lof\async-examples\obj\Debug\netcoreapp2.0\async-examples.dll
 C:\repos\lof\async-examples\obj\Debug\netcoreapp2.0\async-examples.pdb
+C:\repos\lof\async-examples\obj\Debug\netcoreapp2.0\async-examples.csprojResolveAssemblyReference.cache
