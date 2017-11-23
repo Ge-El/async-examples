@@ -8,9 +8,25 @@ namespace async_examples
     {
         static async Task Main(string[] args)
         {
-            var result = await CalculateResult();
+            var GetHtmlTask = GetHtml();
+            Console.WriteLine(GetHtmlTask);
 
-            Console.WriteLine(result);
+            var GetHtmlAsyncTask = GetHtmlAsync();
+            Console.WriteLine(await GetHtmlAsyncTask);
+
+            var calculateResultAsyncTask = CalculateResultAsync();
+            Console.WriteLine(await calculateResultAsyncTask);
+
+            var GetNameAsyncTask = GetNameAsync();
+            Console.WriteLine(await GetNameAsyncTask);
+
+
+
+
+            await Task.WhenAll(GetHtmlAsyncTask, calculateResultAsyncTask);
+            var GetHtmlAsyncResult = await GetNameAsyncTask;
+            var calculateResultAsyncResult = await calculateResultAsyncTask;
+
         }
 
         /// <summary>
@@ -53,14 +69,14 @@ namespace async_examples
         /// <returns>
         ///    A task of type string
         /// </returns>
-        static async Task<string> CalculateResult()
+        static async Task<int> CalculateResultAsync()
         {
             // This queues up the work on the threadpool.
             var expensiveResultTask = Task.Run(async () =>
             {
                 await Task.Delay(10000);
 
-                return "done";
+                return 69;
             });
 
 

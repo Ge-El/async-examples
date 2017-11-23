@@ -669,6 +669,9 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
       "projectUniqueName": "C:\\repos\\lof\\async-examples\\async-examples.csproj",
       "projectName": "async-examples",
